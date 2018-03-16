@@ -1,5 +1,5 @@
 REGISTRY = bigr.bios.cf.ac.uk:4567
-TAG=2.4.0
+TAG=2.7.1
 NAME = comics/blast
 IMAGE = $(REGISTRY)/$(NAME)
 
