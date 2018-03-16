@@ -12,6 +12,7 @@ ENV VERSION=2.4.0
 
 RUN yum install -y \
        parallel \
-       ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/$VERSION/ncbi-blast-$VERSION+-2.x86_64.rpm
+       ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/$VERSION/ncbi-blast-$VERSION+-2.x86_64.rpm ; \
+    yum clean all
 CMD ["/bin/bash"]
 
